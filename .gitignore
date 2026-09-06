@@ -1,0 +1,95 @@
+# =========================
+# .NET
+# =========================
+
+# Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+artifacts/
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# User-specific project files
+*.csproj.user
+*.fsproj.user
+*.vbproj.user
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+**/[Pp]ackages/*
+project.lock.json
+project.fragment.lock.json
+
+# Test results
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# Code coverage
+coverage/
+coverage*.json
+coverage*.xml
+coverage*.info
+
+# Generated code
+Generated/
+GeneratedCode/
+*.generated.cs
+*.g.cs
+*.g.i.cs
+
+# Logs
+*.log
+logs/
+
+# Local configuration / secrets
+appsettings.Local.json
+secrets.json
+
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.template
+
+
+# =========================
+# Local databases
+# =========================
+
+*.db
+*.db-shm
+*.db-wal
+
+
+# =========================
+# OS
+# =========================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
